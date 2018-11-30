@@ -1,15 +1,16 @@
 {
   "version": 2,
+  "name": "now-koa",
+  "regions": ["bru"],
+  "public": false,
   "builds": [
     {
       "src": "server.js",
       "use": "@now/node-server"
-    }
-  ],
-  "routes": [
+    },
     {
-      "src": "/(.*)",
-      "dest": "/server.js"
+      "src": "next.config.js",
+      "use": "@now/next"
     }
   ]
 }
