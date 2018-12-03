@@ -1,8 +1,6 @@
-import React from "react";
 import Link from "next/link";
-console.log("before import style");
 
-// import "../styles/index.scss";
+import "../styles/index.scss";
 
 export default () => (
   <div className="example">

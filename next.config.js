@@ -15,7 +15,6 @@ module.exports = (phase, { defaultConfig }) => {
     }
   };
 
-  // ✅ Put the require call here.
   const sass = require("@zeit/next-sass");
   const images = require("next-images");
   const withPlugins = require("next-compose-plugins");
