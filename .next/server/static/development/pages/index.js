@@ -108,14 +108,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 
 
+console.log("before import style"); // import "../styles/index.scss";
+
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/b",
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "example"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/a",
     as: "/a"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "a"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/a",
+    href: "/b",
     as: "/b"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "b"))));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "b")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/static/iphone.png"
+  }));
 });
 
 /***/ }),
