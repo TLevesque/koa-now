@@ -9,15 +9,25 @@ module.exports = (phase, { defaultConfig }) => {
     return {};
   }
 
-  const nextConfig = {
-    webpack: config => {
-      return config;
-    }
-  };
+  // const nextConfig = {
+  //   webpack: config => {
+  //     return config;
+  //   }
+  // };
+
+  // const sass = require("@zeit/next-sass");
+  // const images = require("next-images");
+  // const withPlugins = require("next-compose-plugins");
+
+  // return withPlugins([[images], [sass]], nextConfig);
 
   const sass = require("@zeit/next-sass");
   const images = require("next-images");
-  const withPlugins = require("next-compose-plugins");
-
-  return withPlugins([[sass], [images]], nextConfig);
+  return images(
+    sass({
+      webpack: config => {
+        return config;
+      }
+    })
+  );
 };
