@@ -1,0 +1,63 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "external \"react\"": 0,
+      "external \"next/document\"": 1,
+      "external \"next/link\"": 2,
+      "multi ./pages/_document.js": 3,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/_document.js": 4,
+      "multi ./pages/a.js": 5,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/a.js": 6,
+      "multi ./pages/b.js": 7,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/b.js": 8,
+      "multi ./pages/index.js": 9,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!pages/index.js": 10,
+      "node_modules/ignore-loader/index.js!styles/index.scss": 11,
+      "multi node_modules/next/dist/pages/_app.js": 12,
+      "node_modules/next/dist/pages/_app.js": 13,
+      "external \"next/app\"": 14,
+      "multi node_modules/next/dist/pages/_error.js": 15,
+      "node_modules/next/dist/pages/_error.js": 16,
+      "external \"next/error\"": 17
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "16": 16,
+      "17": 17
+    }
+  },
+  "chunks": {
+    "byName": {
+      "static/_0nPM_0CG77CBqshyupne/pages/_document.js": 0,
+      "static/_0nPM_0CG77CBqshyupne/pages/a.js": 1,
+      "static/_0nPM_0CG77CBqshyupne/pages/b.js": 2,
+      "static/_0nPM_0CG77CBqshyupne/pages/index.js": 3,
+      "static/_0nPM_0CG77CBqshyupne/pages/_app.js": 4,
+      "static/_0nPM_0CG77CBqshyupne/pages/_error.js": 5
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

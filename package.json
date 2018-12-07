@@ -2,9 +2,9 @@
   "name": "custom-server-koa",
   "version": "1.0.0",
   "scripts": {
-    "dev": "node --experimental-modules server.mjs",
+    "dev": "node -r esm server.js",
     "build": "next build",
-    "start": "NODE_ENV=production node --experimental-modules server.mjs"
+    "start": "NODE_ENV=production node -r esm server.js"
   },
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
@@ -18,5 +18,8 @@
     "node-sass": "^4.10.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "esm": "^3.0.84"
   }
 }
